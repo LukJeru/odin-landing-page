@@ -32,7 +32,7 @@ header {
   padding: 20px 100px;
 }
 
-header h2 {
+header h3 {
   color: var(--white);
   font-size: 24px;
 }
@@ -97,4 +97,43 @@ h1 {
 
 .hero .picture p {
   color: var(--white)
+}
+
+/*Content seciton*/
+
+.information {
+  padding: 60px 120px;
+  text-align: center;
+}
+
+.information h2 {
+  font-size: 36px;
+  color: var(--black);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+  height: auto;
+  border: 2px solid var(--button-color);
+  border-radius: 8px;
+}
+
+.content-description {
+  flex: 1 1 auto;
+  margin-top: 12px;
+}
+
+
+.card-section {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
