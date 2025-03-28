@@ -152,9 +152,11 @@ em {
   font-size: 36px;
 }
 
-h4 {
+.quote h4 {
   font-weight: 900;
   font-size: 18px;
   margin-left: auto;
   margin-top: 18px;
 }
+
+/*action section*/
