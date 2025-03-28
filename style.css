@@ -137,3 +137,24 @@ h1 {
   gap: 20px;
   justify-content: space-between;
 }
+
+/*quote section*/
+
+.quote {
+  background-color: var(--grey);
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  padding: 140px 120px;;
+}
+
+em {
+  font-size: 36px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: auto;
+  margin-top: 18px;
+}
