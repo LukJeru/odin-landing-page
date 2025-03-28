@@ -20,6 +20,10 @@ body {
 }
 
 /*Header*/
+header, footer {
+  flex: 0 0 auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -46,4 +50,51 @@ ul li a {
   text-decoration: none;
   color: var(--grey);
   font-size: 18px;
+}
+
+/*Hero*/
+
+.hero {
+  background-color: var(--dark-background);
+  padding: 100px 100px;
+  display: flex;
+  gap: 48px;;
+}
+
+h1 {
+  font-size: 48px;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.hero p {
+  color: var(--grey);
+  font-size: 18px;
+}
+
+.hero button {
+  margin-top: 16px;
+  background-color: var(--button-color);
+  padding: 12px 32px;
+  color: var(--white);
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero-text, .picture{
+  flex: auto;
+  width: 50%;
+}
+
+.picture {
+  background-color: #999ea9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .picture p {
+  color: var(--white)
 }
